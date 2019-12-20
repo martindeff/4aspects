@@ -13,7 +13,12 @@ main {
 
 section {
     margin-top: 35vh;
-    height: 100vh;
+    height: 50vh;
+}
+
+.tosoon {
+    /* margin-bottom: -45vh; */
+    height: 55vh;
 }
 
 h1 {
