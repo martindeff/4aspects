@@ -1,15 +1,7 @@
-@font-face {
-	font-family: 'Conv_furore_[allfont.ru]';
-	src: url('fonts/furore_[allfont.ru].eot');
-	src: local('☺'), url('fonts/furore_[allfont.ru].woff') format('woff'), url('fonts/furore_[allfont.ru].ttf') format('truetype'), url('fonts/furore_[allfont.ru].svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Furore', 'Bungee', arial;
+    font-family: 'Conv_furore_[allfont.ru]', arial, Sans-Serif;
     background-color: #000;
     color: #fff;
 }
@@ -40,4 +32,15 @@ h2 {
 div {
     margin-top: 30px;
     font-size: 20px;
+}
+
+@font-face {
+	font-family: 'Conv_furore_[allfont.ru]';
+	src: url('fonts/furore_[allfont.ru].eot');
+    src: local('☺'), 
+        url('fonts/furore_[allfont.ru].woff') format('woff'), 
+        url('fonts/furore_[allfont.ru].ttf') format('truetype'), 
+        url('fonts/furore_[allfont.ru].svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
