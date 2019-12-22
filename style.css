@@ -1,3 +1,11 @@
+@font-face {
+	font-family: 'Conv_furore_[allfont.ru]';
+	src: url('fonts/furore_[allfont.ru].eot');
+	src: local('☺'), url('fonts/furore_[allfont.ru].woff') format('woff'), url('fonts/furore_[allfont.ru].ttf') format('truetype'), url('fonts/furore_[allfont.ru].svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +21,11 @@ main {
 
 section {
     margin-top: 35vh;
-    height: 50vh;
+    height: 90vh;
 }
 
 .tosoon {
-    /* margin-bottom: -45vh; */
+    margin-top: 50vh;
     height: 55vh;
 }
 
